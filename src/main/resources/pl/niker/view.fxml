@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #121212;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.niker.Controller">
+    <children>
+        <Button fx:id="launchButton" layoutX="75.0" layoutY="220.0" mnemonicParsing="false" onAction="#onLaunchButtonClick"
+                prefHeight="60.0" prefWidth="250.0"
+                style="-fx-background-color: #ff0000; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 16px; -fx-background-radius: 30; -fx-cursor: hand; -fx-effect: dropshadow(three-pass-box, rgba(255,0,0,0.4), 15, 0, 0, 0);"
+                text="WŁĄCZ MINECRAFT" />
+    </children>
+</AnchorPane>
